@@ -12,25 +12,52 @@
 	</head>
 
 	<body>
+		<div>
+			<!-- Calculate tip for check. Input check and tip rate -->
+			<section>
+				<h3>Calculate Tip for Meal</h3>
+				<span>Total Cost of Meal:</span>
+				<input id="total_cost" type="text">	<br /><br />
 
-	<!-- Enter total cost, # of people, tip rate -->
-		<form>
-			Total_cost:
-			<input id="total_cost" type="text">	<br />
+				<span>Tip Rate(%):</span>
+				<input id="tip_rate" type="text"> <br /><br>
 
+				<button id="calc_tip">Calculate Tip</button>
+
+				<p></p>
+
+			</section>
+
+			<!-- Calculate tip for everyone. Input check, tip rate, and number of people -->
+			<section>
+				<h3>Calculate Tip from Everyone</h3>
+				<!-- Total Cost of Meal:
+				<input id="total_cost" type="text">	<br />
+
+				Tip Rate(%)
+				<input id="tip_rate" type="text"> <br /> -->
+
+				<span>Number of People:</span>
+				<input id="number_people" type="text"> <br /><br />
+				<button id="calc_tip_each">Calculate tip for Each Person</button>
+
+				<p></p>
+
+			</section>
+		</div>
+
+
+		<!-- Going dutch. Calculate bill(including tip) for each individual person -->
+<!-- 		<section>
 			Number of People
 			<input id="number_people" type="text"> <br />
 
-			Tip Rate(%)
-			<input id="tip_rate" type="text"> <br />
-		</form>
+			Tax Rate
+			<input id="tax_rate" type="text"> <br />
+			
 
-		<button id="calc_tip">Calculate Tip</button>
-		<button id="calc_tip_each">Calculate tip for Each Person</button>
-
-		<p>Total</p>
-
-
+			<button id="calc_tip_each">Calculate tip for Each Person</button>
+		</section> -->
 
 		<script src="js/main.js" type="text/javascript"></script>
 	</body>

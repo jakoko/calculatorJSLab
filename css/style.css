@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Architex';
+    src: url('../architext/Architex.ttf');
+
+}
+
+body {
+	background-image: url('../images/checkplease.jpg');
+	background-size: cover;
+}
+
+div {
+	width: 600px;
+	padding: 40px 30px;
+	margin-top: 4%;
+	margin-left: 4%;
+	border-radius: 25%;
+    border: 10px solid #813F41;
+
+	/*Add background gradient*/
+	background: #f1e767; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f1e767 0%, #feb645 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f1e767 0%,#feb645 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f1e767 0%,#feb645 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f1e767 0%,#feb645 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+}
+
+
+section {
+	color: black;
+	border: 2px solid red;
+	text-align: center;
+	padding: 5px 15px;
+}
+
+section span {
+	font-family: 'Architex';
+	font-weight: bold;
+	font-size: 35px;
+	float: left;
+}
+
+section input {
+	color: black;
+	float: right;
+	width: 50px;
+}
+
+p {
+	color: black;
+	font-size: 15px;
+}
+
